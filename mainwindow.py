@@ -7,8 +7,9 @@ import matplotlib
 import matplotlib.pyplot as plt
 from skimage import io, color, img_as_float, img_as_ubyte
 
+
 from ui_mainwindow import Ui_MainWindow
-from ta_algorithm import *
+from algorithm import *
 
 matplotlib.use('qt5agg')
 
